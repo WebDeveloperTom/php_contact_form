@@ -1,0 +1,30 @@
+.error {
+  color: red;
+}
+
+body {
+  background-color: #057DCD;
+  height:100vh;
+}
+
+main {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.success {
+  color: green;
+}
