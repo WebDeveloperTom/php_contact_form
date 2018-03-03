@@ -12,8 +12,9 @@
       <div class="container">
         <p>Contact Us</p>
         <form class="contact-form" action="includes/contactform.php" method="post">
-          <!-- returns user input if a form error occurs -->
+
           <?php
+          // returns user input if a form error occurs
             if (isset($_GET['name'])) {
               $name = $_GET['name'];
               echo '<input type="text" name="name" placeholder="Full Name" value="'.$name.'">';
@@ -44,16 +45,16 @@
            ?>
           <button type="submit" name="submit">Send</button>
         </form>
-        
-        <!-- error messages -->
+
         <?php
+        // error messages
           if (!isset($_GET['query'])) {
             exit();
           }
           else {
             $queryCheck = $_GET['query'];
             if ($queryCheck == "empty" ) {
-              echo "<p class='error'>You did not fill out all the fields</p>";
+              echo "<p class='error'>You did not fill out all the fields.</p>";
               exit();
             } elseif ($queryCheck == "invalidchar" ) {
               echo "<p class='error'>Please use A - Z characters only in Name and Subject.</p>";

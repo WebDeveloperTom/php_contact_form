@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 
             mail($mailTo, $subject, $txt, $headers);
             header("Location: ../index.php?query=sent");
-
+            // form_data is the table name
             $sql = "INSERT INTO form_data (Name, Email, Phone, Message) VALUES ('$name', '$mailFrom', '$phone', '$message');";
             mysqli_query($conn, $sql);
           }
