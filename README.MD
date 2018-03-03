@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## php_contact_form
+=======
+#php_contact_form
+>>>>>>> d1ceefde4b7732dea67aebdd869755bb10a0914e
 
 This was a coding challenge for a Junior Full Stack Web Developer position in Auckland, NZ.
 
