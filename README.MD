@@ -1,9 +1,14 @@
 #php_contact_form
+This was a coding challenge for a Junior Full Stack Web Developer position in Auckland, NZ.
+You can see live demo at www.webdevelopertom.com/form
 
+<<<<<<< HEAD
 This was a coding challenge for a Junior Full Stack Web Developer position in Auckland, NZ.
 
 You can see live demo at www.webdevelopertom.com/form
 
+=======
+>>>>>>> 49f493dceed777016b0cf257ad114b0d057e598c
 ## Task: Contact Form Modal
 
 "The client has requested that a contact form modal be added to their website. It must adhere to the following requirements:"
