@@ -1,6 +1,4 @@
-#php_contact_form
-This was a coding challenge for a Junior Full Stack Web Developer position in Auckland, NZ.
-You can see live demo at www.webdevelopertom.com/form
+## php_contact_form
 
 This was a coding challenge for a Junior Full Stack Web Developer position in Auckland, NZ.
 
