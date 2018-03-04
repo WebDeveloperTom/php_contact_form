@@ -12,6 +12,13 @@ You can see live demo at www.webdevelopertom.com/form
 * Customer enquiries should be saved to a database.
 * Customer enquiries should be emailed to the client.
 
+## Thought process for the form
+
+* The form needed to be clear and simple.
+* Data should only be sent if all the field were filled out.
+* User's inputs in the different fields needed to stay if there was an input error else where.
+* Error messages would need to be clear and tell the user what they did wrong.
+
 ## For next time
 * If I was to do this again, next time I would add a Captcha to avoid spam being sent to a client.
 * I would also look to make the site mobile responsive. This could easily be achieved through some CSS media queries.
